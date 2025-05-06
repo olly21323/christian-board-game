@@ -1,0 +1,32 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f9f9;
+  text-align: center;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 20px auto;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player1 {
+  background-color: gold;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+.player2 {
+  background-color: skyblue;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
